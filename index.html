@@ -5,12 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <title>Trybewarts Wizarding School</title>
 </head>
 <body>
   <header class="header">
     <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Logo Trybewarts">
+    <form class="trybewarts-login" action="">
+      <input id="login" class="form-control authentication" type="text" placeholder="Login">
+      <input id="password" class="form-control authentication" type="text" placeholder="Senha">
+      <button id="login-button" type="button" class="btn btn-primary authentication">Logar</button>
+    </form>
   </header>
-  <link rel="script" href="script.js">
+  <script src="script.js"></script>
 </body>
 </html>
