@@ -8,5 +8,5 @@ function login() {
   }
 }
 
-const loginButtonClick = document.querySelector('#login-button');
-loginButtonClick.addEventListener('click', login);
+const configButtonLogin = document.querySelector('#login-button');
+configButtonLogin.addEventListener('click', login);

@@ -1,10 +1,16 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Inknut Antiqua, serif;
+}
+
+.container-header {
+  padding: 5px 10%;
+  background-color: rgb(50, 167, 145);
 }
 
 .header {
-  background-color: rgb(50, 167, 145);
+  background-color: rgb(50, 167, 145); /* bg requisito 1 */
   display: flex;
   justify-content: space-between;
   align-items: stretch;
@@ -12,11 +18,13 @@
 }
 
 h1 {
+  font-size: xx-large;
+  font-weight: 700;
   align-self: center;
 }
 
 .trybewarts-header-logo {
-  width: 150px;
+  width: 75px;
 }
 
 .trybewarts-login {
@@ -25,8 +33,21 @@ h1 {
 }
 
 .authentication {
-  padding: 15px;
+  width: 160px;
+  height: 40px;
   margin: 5px;
+  border-style: none;
+  border-radius: 8px;
+  font-size: smaller;
+}
+
+#login-button {
+  background-color: rgb(79, 33, 127);
+}
+
+#container-main {
+  display: flex;
+  justify-content: center;
 }
 
 main {
@@ -37,4 +58,8 @@ main {
   display: flex;
   flex-direction: column;
   width: 675px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
