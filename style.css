@@ -80,6 +80,18 @@ main {
   font-size: smaller;
 }
 
+.label-select {
+  font-size: smaller;
+}
+
+#house {
+  background-color: white;
+  width: 276.83px;
+  height: 40px;
+  border-style: none;
+  border-radius: 8px;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
 }
