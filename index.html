@@ -26,7 +26,7 @@
     <main>
       <form id="evaluation-form" action="">
         <h2>Forms</h2>
-        <div id="inputs-evaluation-form">
+        <div id="container1-form">
           <input name="Nome" id="input-name" class="inputs-evaluation-form" type="text" placeholder="Nome">
           <input name="Sobrenome" id="input-lastname" class="inputs-evaluation-form" type="text" placeholder="Sobrenome">
           <input name="Email" id="input-email" class=" inputs-evaluation-form" type="text" placeholder="Email">
@@ -38,6 +38,19 @@
               <option id="pytherina-house" value="Pytherina">Pytherina</option>
             </select>
           </label>
+        </div>
+
+        <div id="container2-form">
+          <hr>
+          <div class="radio-family">
+            <label class="labels-container2" id="label-family" for="">Qual sua família?</label><br>
+            <input class="inputs-container2 form-check-input " type="radio" name="family" id="Frontend" value="Frontend">
+            <label class="labels-container2" id="frontend" for="Frontend">Frontend</label><br>
+            <input class="inputs-container2 form-check-input" type="radio" name="family" id="Backend" value="Backend">
+            <label class="labels-container2" id="backend" for="Backend">Backend</label><br>
+            <input class="inputs-container2 form-check-input" type="radio" name="family" id="FullStack" value="FullStack">
+            <label class="labels-container2" id="fullStack" for="FullStack">FullStack</label>
+          </div>
         </div>
       </form>
       <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Imagem do Escudo Trybewarts">
