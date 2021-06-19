@@ -54,7 +54,6 @@ h1 {
 main {
   margin-top: 10px;
   display: flex;
-  justify-content: center;
 }
 
 #evaluation-form {
@@ -129,6 +128,22 @@ main {
 
 #container3-form {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-end;
   width: 675px;
+}
+
+.rate-row {
+  align-self: baseline;
+}
+
+.break-point {
+  display: flex;
+  flex-basis: 100%;
+  width: 0;
+}
+
+#text-area {
+  border-radius: 8px;
+  border-color: rgb(79, 33, 127);
 }
