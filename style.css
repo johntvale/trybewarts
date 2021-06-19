@@ -126,3 +126,9 @@ main {
 .inputs-container2 {
   margin: 12px 0;
 }
+
+#container3-form {
+  display: flex;
+  justify-content: space-between;
+  width: 675px;
+}
