@@ -53,6 +53,7 @@ h1 {
 
 main {
   margin-top: 10px;
+  margin-bottom: 3%;
   display: flex;
 }
 
@@ -131,16 +132,11 @@ main {
   flex-direction: column;
   justify-content: flex-end;
   width: 675px;
+  padding: 8px 0;
 }
 
 .rate-row {
   align-self: baseline;
-}
-
-.break-point {
-  display: flex;
-  flex-basis: 100%;
-  width: 0;
 }
 
 #text-area {
@@ -173,4 +169,11 @@ main {
   width: 675px;
   border-style: none;
   border-radius: 8px;
+}
+
+#footer-bar {
+  background-color: rgb(62, 65, 75);
+  text-align: center;
+  color: white;
+  line-height: 310%;
 }
