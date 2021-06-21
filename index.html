@@ -85,8 +85,9 @@
           <div class="comments">
             <label class="textarea" for="comments">Deixe seu comentário:</label>
             <br>
-            <textarea id="text-area" rows="4" cols="50" maxlength="500" name="comments"></textarea> 
-          </div>
+            <textarea onkeyup="characterCount(this.value)" id="textarea" rows="4" cols="50" maxlength="500" name="comments"></textarea> 
+            <span id="counter">500</span>
+          </div>          
         </div>
         <div id=container4-form>
           <label class="labels-container4" id="label-infos" for="agreement">Você concorda com o uso das informações acima?

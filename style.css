@@ -139,7 +139,7 @@ main {
   align-self: baseline;
 }
 
-#text-area {
+#textarea {
   border-radius: 8px;
   border-color: rgb(79, 33, 127);
 }
@@ -176,4 +176,9 @@ main {
   text-align: center;
   color: white;
   line-height: 310%;
+}
+
+#counter {
+  pointer-events: none;
+  color: rgba(0, 0, 0, 0.562);
 }
