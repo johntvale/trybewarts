@@ -23,13 +23,13 @@
     </div>
   </header>
   <div id="container-main">
-    <main>
+    <main id="main">
       <form id="evaluation-form" action="">
         <h2>Forms</h2>
-        <div id="container1-form">
+        <div id="container1-form" class="change">
           <input name="Nome" id="input-name" class="inputs-evaluation-form" type="text" placeholder="Nome">
           <input name="Sobrenome" id="input-lastname" class="inputs-evaluation-form" type="text" placeholder="Sobrenome">
-          <input name="Email" id="input-email" class=" inputs-evaluation-form" type="text" placeholder="Email">
+          <input name="Email" id="input-email" class=" inputs-evaluation-form" type="email" placeholder="Email">
           <label class="label-select" for="house">Casa:
             <select id="house" name="Casa">
               <option id="gitnoria-house" value="Gitnória" selected>Gitnória</option>
@@ -52,17 +52,17 @@
           </div>
           <div class="contents-family">
             <label class="labels-container2 form-check-label" id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label><br>
-            <input class="inputs-container2 form-check-input " type="checkbox" name="content" id="HoFs" value="HoFs">
+            <input class="inputs-container2 form-check-input subject" type="checkbox" name="content" id="HoFs" value="HoFs">
             <label class="labels-container2 form-check-label" id="hoFs" for="HoFs">HoFs</label>
-            <input class="inputs-container2 form-check-input" type="checkbox" name="content" id="Jest" value="Jest">
+            <input class="inputs-container2 form-check-input subject" type="checkbox" name="content" id="Jest" value="Jest">
             <label class="labels-container2 form-check-label" id="jest" for="Jest">Jest</label>
-            <input class="inputs-container2 form-check-input" type="checkbox" name="content" id="Promises" value="Promises">
+            <input class="inputs-container2 form-check-input subject" type="checkbox" name="content" id="Promises" value="Promises">
             <label class="labels-container2 form-check-label" id="promises" for="Promises">Promises</label><br>
-            <input class="inputs-container2 form-check-input " type="checkbox" name="content" id="React" value="React">
+            <input class="inputs-container2 form-check-input subject" type="checkbox" name="content" id="React" value="React">
             <label class="labels-container2 form-check-label" id="react" for="React">React</label>
-            <input class="inputs-container2 form-check-input" type="checkbox" name="content" id="SQL" value="SQL">
+            <input class="inputs-container2 form-check-input subject" type="checkbox" name="content" id="SQL" value="SQL">
             <label class="labels-container2 form-check-label" id="SQL" for="SQL">SQL</label>
-            <input class="inputs-container2 form-check-input" type="checkbox" name="content" id="Python" value="Python">
+            <input class="inputs-container2 form-check-input subject" type="checkbox" name="content" id="Python" value="Python">
             <label class="labels-container2 form-check-label" id="python" for="Python">Python</label>
           </div>
         </div>
@@ -89,9 +89,9 @@
             <span id="counter">500</span>
           </div>          
         </div>
-        <div id=container4-form>
+        <div id="container4-form">
           <label class="labels-container4" id="label-infos" for="agreement">Você concorda com o uso das informações acima?
-            <input class="inputs-container4 form-check-input " type="checkbox" name="content" id="agreement" value='disagree'>
+            <input class="inputs-container4 form-check-input " type="checkbox" name="agreement-checkbox" id="agreement" value='disagree'>
           </label>
         </div>
         <div class="container5-form">
